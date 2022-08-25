@@ -1,0 +1,19 @@
+{
+  "name": "auth-poc",
+  "version": "1.0.0",
+  "description": "auth flow using redis db with upstash",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nilanchal Patra (Null Tree Founder)",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.18.1",
+    "mongodb": "^4.9.0",
+    "uuid": "^8.3.2"
+  }
+}

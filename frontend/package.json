@@ -1,0 +1,24 @@
+{
+  "name": "auth-poc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next-auth/upstash-redis-adapter": "^3.0.1",
+    "@upstash/redis": "^1.12.0",
+    "dotenv": "^16.0.1",
+    "next": "12.2.5",
+    "next-auth": "^4.10.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
+  }
+}
